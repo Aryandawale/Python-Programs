@@ -1,0 +1,16 @@
+# One functin can call another function
+# This is nested function
+
+def phoenix():
+    print("Inside Phoenix")
+
+    def zara():
+        print("Inside Zara")
+
+    zara()
+
+def main():
+    phoenix()
+
+if __name__ == "__main__":
+    main()
